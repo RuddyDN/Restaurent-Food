@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Food</title>
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css-scss/Restaurante.css">
+    <link rel="stylesheet" href="src/css-scss/index.css">
+    <link rel="stylesheet" href="src/css-tailwind/tailwind.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="bg-a header-enlaces">
+            <div class="button-container">
+                <button id="menu-button" class="menu-button hidden text-white"><span class="bi bi-list"></span></button>
+            </div>
+            <div class="logo-container">
+                <img src="img/logo.png" class="img-logo" alt="">
+                <h1>Restaurent Food</h1>
+            </div>
+            <div class="enlaces-container d-xl-flex d-none"  id="menu-nav">
+                <a href="" class="enlaces text-white"><span>Inicio</span></a>
+                <a href="#productos" class="enlaces text-white"><span>Menu</span></a>
+                <a href="#about" class="enlaces text-white"><span>Nosotros</span></a>
+                <a href="#reseña" class="enlaces text-white"><span>Reseñas</span></a>
+                <a href="" class="enlaces text-white"><span>Contacto</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="header">
+        <article class="img-container">
+            <img src="img/image.jpg" alt="">
+        </article>
+        <article class="content-container">
+            <h1>Bienvenido</h1>
+            <p>Ordena aquí</p>
+        </article>
+    </section>
+
+    <main class="container-fluid" id="about">
+        <h1 class="text-center fw-semibold display-2 titulo">Quienes Somos</h1>
+
+        <section class="container-fluid about my-4">
+            <div class="description-container border-bottom pb-3 d-flex flex-xl-row flex-sm-column flex-column justify-content-md-center align-items-center" style="width: 100%;">
+                <div class="img-container w-50 ancho2"><img class="rounded ancho" src="img/image2.jpg" alt=""></div>
+                <div class="content-container w-50 p-5 ancho">
+                    <h1 class="fs-1 fw-normal ancho">Servicio <span class="fw-light text-warning">de Calidad</span></h1>
+                    <p class="fs-5 mt-3 texto ancho">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et temporibus dolore minima ab eveniet eligendi voluptas cupiditate itaque fugit at?</p>
+                    <div class="icono-container mt-3 d-flex align-items-center">
+                        <a href=""><i class="bi bi-currency-dollar text-white bg-warning rounded-5 fs-1"></i></a>
+                        <p class="fs-3 fw-semibold ms-2 ancho">Los mejores precios</p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="container-fluid productos my-4">
+            <div class="product-container product my-3" id="productos">
+                <h1 class="text-center fw-semibold display-2 titulo my-2">Productos</h1>
+
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/producto1.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-semibold fs-3">Combo 1</h5>
+                              <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse nam quasi pariatur sunt.</p>
+                              <a href="#" class="btn btn-warning mt-2">Comprar Ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/producto3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-semibold fs-3">Combo 2</h5>
+                              <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse nam quasi pariatur sunt.</p>
+                              <a href="#" class="btn btn-warning mt-2">Comprar Ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/producto5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-semibold fs-3">Combo 3</h5>
+                              <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse nam quasi pariatur sunt.</p>
+                              <a href="#" class="btn btn-warning mt-2">Comprar Ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/producto3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-semibold fs-3">Combo 4</h5>
+                              <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse nam quasi pariatur sunt.</p>
+                              <a href="#" class="btn btn-warning mt-2">Comprar Ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/producto2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-semibold fs-3">Combo 5</h5>
+                              <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse nam quasi pariatur sunt.</p>
+                              <a href="#" class="btn btn-warning mt-2">Comprar Ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/producto4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-semibold fs-3 text-warning">Oferta de hoy</h5>
+                              <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse nam quasi pariatur sunt.</p>
+                              <a href="#" class="btn btn-warning mt-2">Comprar Ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="container mb-10" id="reseña">
+        <h1 class="text-6xl text-center font-semibold">Reseñas</h1>
+
+        <section class="grid grid-cols-1 mt-5">
+            <article class="shadow-lg rounded-lg flex md:flex-row xl:w-3/4 flex-col items-center mb-3">
+                <div class="img-cotainer md:w-1/4 w-full py-2 px-3"><img src="img/profile1.jpg" class="rounded-[50%] mx-auto w-36 h-36 object-center object-coverr" alt=""></div>
+                <div class="content-container w-3/4 py-3 px-6">
+                    <h1 class="md:text-2xl text-xl font-semibold">Nombre Reseña</h1>
+                    <p class="md:text-lg text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aliquid!</p>
+                    <div class="icon-container mt-2">
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-half text-yellow-300"></span></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="shadow-lg rounded-lg flex md:flex-row xl:w-1/2 flex-col items-center mb-3">
+                <div class="img-cotainer md:w-1/4 w-full py-2 px-3"><img src="img/profile2.jpg" class="rounded-[50%] mx-auto w-36 h-36 object-center object-cover" alt=""></div>
+                <div class="content-container w-3/4 py-3 px-6">
+                    <h1 class="text-2xl font-semibold">Nombre Reseña</h1>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aliquid!</p>
+                    <div class="icon-container mt-2">
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="shadow-lg rounded-lg flex md:flex-row xl:w-3/4 flex-col items-center mb-3">
+                <div class="img-cotainer md:w-1/4 w-full py-2 px-3"><img src="img/profile3.jpg" class="rounded-[50%] mx-auto w-36 h-36 object-center object-cover" alt=""></div>
+                <div class="content-container w-3/4 py-3 px-6">
+                    <h1 class="text-2xl font-semibold">Nombre Reseña</h1>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aliquid!</p>
+                    <div class="icon-container mt-2">
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star text-yellow-300"></span></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="shadow-lg rounded-lg flex md:flex-row xl:w-3/4 flex-col items-center mb-3">
+                <div class="img-cotainer md:w-1/4 w-full py-2 px-3"><img src="img/profile4.jpg" class="rounded-[50%] mx-auto w-36 h-36 object-center object-cover" alt=""></div>
+                <div class="content-container w-3/4 py-3 px-6">
+                    <h1 class="text-2xl font-semibold">Nombre Reseña</h1>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aliquid!</p>
+                    <div class="icon-container mt-2">
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-half text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star text-yellow-300"></span></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="shadow-lg rounded-lg flex md:flex-row xl:w-1/2 flex-col items-center mb-3">
+                <div class="img-cotainer md:w-1/4 w-full py-2 px-3"><img src="img/profile5.jpg" class="rounded-[50%] mx-auto w-36 h-36 object-center object-cover" alt=""></div>
+                <div class="content-container w-3/4 py-3 px-6">
+                    <h1 class="text-2xl font-semibold">Nombre Reseña</h1>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aliquid!</p>
+                    <div class="icon-container mt-2">
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                        <a href=""><span class="bi bi-star-fill text-yellow-300"></span></a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-orange-500">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <img src="img/logo.png" alt="" style="height: 70px !important; width: 70px !important;">
+            <span class="ml-3 text-xl">Restaurent Food</span>
+          </a>
+          <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-white sm:py-2 sm:mt-0 mt-4">© 2020 Restaurent Food —
+            <a class="text-white ml-1" rel="noopener noreferrer" target="_blank">Ruddy Araujo </a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+    <script src="src/script/script.js"></script>
+</body>
+</html>

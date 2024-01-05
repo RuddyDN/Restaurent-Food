@@ -1,0 +1,422 @@
+/*
+  * Generales *
+*/
+/*
+  * FONT-FAMILY *
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+/*
+  * MIXIN *
+*/
+/*
+  * VARIABLE *
+*/
+/*
+ * GENERALES *
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans serif;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*
+  * TEXT *
+*/
+.text-p {
+  color: #ffba08;
+}
+
+.text-p:hover {
+  background: #6e4f00;
+}
+
+.text-s {
+  color: #faa307;
+}
+
+.text-s:hover {
+  background: #664202;
+}
+
+.text-a {
+  color: #e85d04;
+}
+
+.text-a:hover {
+  background: #522101;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-white:hover {
+  background: #b3b3b3;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-black:hover {
+  background: black;
+}
+
+.text-gray {
+  color: #6c757d;
+}
+
+.text-gray:hover {
+  background: #25282b;
+}
+
+.gray-name {
+  color: #f8f9fa;
+}
+
+.gray-name {
+  color: #e9ecef;
+}
+
+.gray-name {
+  color: #dee2e6;
+}
+
+.gray-name {
+  color: #ced4da;
+}
+
+.gray-name {
+  color: #adb5bd;
+}
+
+.gray-name {
+  color: #6c757d;
+}
+
+.gray-name {
+  color: #495057;
+}
+
+.gray-name {
+  color: #343a40;
+}
+
+.gray-name {
+  color: #212529;
+}
+
+p {
+  line-height: 27px;
+}
+
+.fs-xs {
+  font-size: 8px;
+}
+
+.fs-s {
+  font-size: 12px;
+}
+
+.fs-n {
+  font-size: 16px;
+}
+
+.fs-m {
+  font-size: 18px;
+}
+
+.fs-lg {
+  font-size: 24px;
+}
+
+.fs-xl {
+  font-size: 40px;
+}
+
+.fs-xxl {
+  font-size: 60px;
+}
+
+.display-1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.display-2 {
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.display-3 {
+  font-weight: 700;
+  font-size: 44px;
+}
+
+/*
+  * BACKGROUND *
+*/
+.bg-p {
+  background: #ffba08;
+}
+
+.bg-s {
+  background: #faa307;
+}
+
+.bg-a {
+  background: #e85d04;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-gray {
+  background: #6c757d;
+}
+
+.bg-gray-100 {
+  background: #f8f9fa;
+}
+
+.bg-gray-200 {
+  background: #e9ecef;
+}
+
+.bg-gray-300 {
+  background: #dee2e6;
+}
+
+.bg-gray-400 {
+  background: #ced4da;
+}
+
+.bg-gray-500 {
+  background: #adb5bd;
+}
+
+.bg-gray-600 {
+  background: #6c757d;
+}
+
+.bg-gray-700 {
+  background: #495057;
+}
+
+.bg-gray-800 {
+  background: #343a40;
+}
+
+.bg-gray-900 {
+  background: #212529;
+}
+
+/*
+  * LAYOUT *
+*/
+/*
+  * NAVBAR *
+*/
+body {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .d-none {
+    display: none;
+  }
+}
+.header-enlaces {
+  width: 100%;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+}
+.header-enlaces .logo-container {
+  cursor: pointer;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  padding: 10px;
+}
+.header-enlaces .logo-container:hover {
+  color: #ffba08;
+}
+.header-enlaces .logo-container img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.header-enlaces .logo-container h1 {
+  font-family: "Open Sans", sans serif;
+  font-size: 1.5em;
+  margin-left: 10px;
+  color: #fff;
+}
+.header-enlaces .enlaces-container {
+  width: 70%;
+  display: flex;
+  justify-content: end;
+}
+.header-enlaces .enlaces-container a {
+  margin: 0 20px;
+  background-color: #ffba08;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.header-enlaces .enlaces-container a:hover {
+  background-color: #d49900;
+}
+@media screen and (max-width: 1200px) {
+  .header-enlaces {
+    flex-wrap: wrap;
+  }
+  .header-enlaces .logo-container {
+    width: 80%;
+    order: 1;
+  }
+  .header-enlaces .button-container {
+    order: 2;
+    display: flex;
+    width: 20%;
+    justify-content: end;
+    padding-left: 10px;
+  }
+  .header-enlaces .menu-button {
+    display: block;
+    font-size: 30px;
+    color: #000;
+    background-color: #faa307;
+    border: 1px solid #ffba08;
+    padding: 0 5px;
+    border-radius: 5px;
+  }
+  .header-enlaces .enlaces-container {
+    order: 3;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-enlaces .enlaces-container a {
+    width: fit-content;
+    margin: 5px 0;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  .header-enlaces .enlaces-container a:hover {
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header-enlaces .logo-container h1 {
+    font-size: 1rem !important;
+  }
+}
+
+.header {
+  width: 100vw;
+  height: calc(100vh - 90px);
+  position: relative;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.header .img-container {
+  width: 100%;
+  height: 100%;
+}
+.header .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.header .content-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.header .content-container h1 {
+  font-family: "Open Sans", sans serif;
+  font-size: 10vmin;
+  font-style: italic;
+  font-weight: bold;
+}
+.header .content-container p {
+  font-family: "Roboto", sans serif;
+  font-size: 4vmin;
+  color: #ffba08;
+  font-weight: 100;
+}
+
+/*
+  * ABOUT *
+*/
+.titulo {
+  font-family: "Open Sans", sans serif;
+}
+
+.texto {
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+  .about .ancho {
+    width: 100% !important;
+  }
+  .about .ancho2 {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about .content-container h1.ancho {
+    font-size: 40px !important;
+    text-align: center;
+  }
+  .about .content-container p.ancho {
+    width: 100% !important;
+    font-size: 15px !important;
+    font-weight: 100;
+  }
+}
+
+/*# sourceMappingURL=Restaurante.css.map */

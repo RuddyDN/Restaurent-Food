@@ -1,0 +1,39 @@
+/*
+  * ABOUT *
+*/
+
+.titulo{
+    font-family: $font-1;
+}
+
+.texto{
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+.about{
+    @media screen and (max-width: 1199px) {
+        .ancho{
+            width: 100% !important;
+        }
+
+        .ancho2{
+            width: 80% !important;
+        }
+    
+    
+    }
+
+    @include phones(){
+        & .content-container h1.ancho{
+            font-size: 40px !important;
+            text-align: center;
+        }
+        & .content-container p.ancho{
+            width: 100% !important;
+            font-size: 15px !important;
+            font-weight: 100;
+        }
+    }
+}
+

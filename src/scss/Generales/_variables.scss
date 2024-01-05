@@ -1,0 +1,42 @@
+/*
+  * VARIABLE *
+*/
+
+// * COLORS *
+$primary-color: #ffba08;
+$secondary-color: #faa307;
+$alert-color: #e85d04;
+$white: #fff;
+$black: #000;
+$gray: #6c757d;
+
+$colors: (
+    p: $primary-color,
+    s: $secondary-color,
+    a: $alert-color,
+    white: $white,
+    black: $black,
+    gray: $gray
+
+);
+
+$grays: (
+    100: #f8f9fa,
+    200: #e9ecef,
+    300: #dee2e6,
+    400: #ced4da,
+    500: #adb5bd,
+    600: #6c757d,
+    700: #495057,
+    800: #343a40,
+    900: #212529
+);
+
+// * FONTS *
+$font-1: 'Open Sans' , sans serif;
+$font-Roboto: 'Roboto', sans serif;
+
+// * BREAKPOINTS *
+
+$phones: '(max-width: 450px)';
+$tablets: '(max-width: 1200px)';
